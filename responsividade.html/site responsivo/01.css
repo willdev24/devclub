@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(173, 173, 172);
+    background-color: rgba(173, 173, 172);
         display: flex
 }
 
@@ -19,9 +19,7 @@ nav{
 }
 
 
-a{
-   
-   font-size: 20px;
+a{ font-size: 20px;
    margin-left: 30px;
    text-decoration: none;
    font-weight: bolder;
@@ -35,7 +33,7 @@ a:hover{
 #corpo{
 
     background-color: #fdffff;
-    height:650px;
+    height:100vh;
     width: 70%;
 }
 
@@ -50,6 +48,9 @@ h1{
     font-size: 50px;
 }
 
+p{
+    opacity: 0.6;
+}
 button {
     margin-top: 15px;
 }
@@ -71,27 +72,29 @@ color:rgb(255, 255, 255) ;
 
 
 #foto{
-    position: relative;
+    position: sticky;
     margin-left: 750px;
     margin-top: -300px;
+    right: 300px;
 }
 
+
+
 img{
-    height: 300px;
+    position: relative;
+    height: auto;
   
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     body{
         background-color: rgb(173, 173, 172);
         display: block;
     }
     
     nav{
-        
         padding: 16px 10px;
         
-    
     }
     
     
@@ -112,20 +115,25 @@ img{
         position: static;
         background-color: #fdffff;
         height:350px;
-        width: 100%;
+        width: auto;
        
     }
     
     .container{
         margin-top: 0px;
         margin-left:45px;
-        width: 70%;
+        width: auto;
        /* background-color: #ff84cc;*/
     }
     
     h1{
         font-size: 35px;
-        margin-top: 1px;
+               align-items: center;
+    }
+
+    p{
+        align-items: center;
+        width:auto ;
     }
     
     button {
@@ -147,16 +155,17 @@ img{
     background-color: #ff84cc;
     color:rgb(255, 255, 255) ;
     }
-    
-    
+
     #foto{
-        position: relative;
-        margin-left: 55px;
+        position: sticky;
+        margin-left: 20px;
         margin-top: 250px;
+        right: 20px;
     }
     
     img{
         height: 150px;
+        left: 30px;
       
     }
        
