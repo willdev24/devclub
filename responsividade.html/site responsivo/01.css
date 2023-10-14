@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(83, 82, 82);
+}
+
+body{
+    background-color: rgb(173, 173, 172);
+        display: flex
+}
+
+nav{
+    display: inline-block;
+    padding: 16px 10px;
+
+}
+
+
+a{
+   
+   font-size: 20px;
+   margin-left: 30px;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+
+#corpo{
+
+    background-color: #fdffff;
+    height:650px;
+    width: 70%;
+}
+
+.container{
+    
+    margin-top:300px;
+    margin-left: 80px;
+    width: 50%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+button{
+ 
+border-radius: 10px;
+padding: 5px 35px;
+background-color: rgb(128, 125, 148);
+color: #fdffff;
+border: none;
+font-size: 15px;
+}
+
+button:hover{
+background-color: #ff84cc;
+color:rgb(255, 255, 255) ;
+}
+
+
+#foto{
+    position: relative;
+    margin-left: 750px;
+    margin-top: -300px;
+}
+
+img{
+    height: 300px;
+  
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(173, 173, 172);
+        display: block;
+    }
+    
+    nav{
+        
+        padding: 16px 10px;
+        
+    
+    }
+    
+    
+    a{
+       
+       font-size: 15px;
+       margin-left: 30px;
+       text-decoration: none;
+       font-weight: bolder;
+    }
+    
+    a:hover{
+        color: aliceblue;
+    }
+    
+    
+    #corpo{
+        position: static;
+        background-color: #fdffff;
+        height:350px;
+        width: 100%;
+       
+    }
+    
+    .container{
+        margin-top: 0px;
+        margin-left:45px;
+        width: 70%;
+       /* background-color: #ff84cc;*/
+    }
+    
+    h1{
+        font-size: 35px;
+        margin-top: 1px;
+    }
+    
+    button {
+        margin-top: 20px;
+    }
+    
+    button{
+     
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: rgb(128, 125, 148);
+    color: #fdffff;
+    border: none;
+    font-size: 15px;
+    margin-left: 50px;
+    }
+    
+    button:hover{
+    background-color: #ff84cc;
+    color:rgb(255, 255, 255) ;
+    }
+    
+    
+    #foto{
+        position: relative;
+        margin-left: 55px;
+        margin-top: 250px;
+    }
+    
+    img{
+        height: 150px;
+      
+    }
+       
+}

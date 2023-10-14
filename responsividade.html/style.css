@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+}
+
+#pai{
+    background-color: blue;
+   height: 650px;
+   width: 600px;
+   position:sticky;
+   margin: 200px;
+   
+    
+}
+
+#filho{
+    background-color: red;
+    height: 175px;
+    width: 50%;
+    
+}
+
+#filho1{
+    
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+@media screen and (max-width:600px){
+    #pai{
+        background-color: blue;
+       height: 250px;
+       width: 300px;
+      
+       
+       
+        
+    }
+    
+    #filho{
+        background-color: red;
+        height: 75px;
+        width: 50%;
+        
+    }
+    
+    #filho1{
+        
+        background-color: pink;
+        height: 50px;
+        width: 50px;
+    
+    }
+    
+    
+    
+}
